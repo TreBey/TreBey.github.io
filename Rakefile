@@ -67,13 +67,3 @@ task :list do
   puts "Tasks: #{(Rake::Task.tasks - [Rake::Task[:list]]).join(', ')}"
   puts "(type rake -T for more detail)\n\n"
 end
-
-
-#taken from jekyll site
-# source 'https://rubygems.org'
-#
-# require 'json'
-# require 'open-uri'
-# versions = JSON.parse(open('https://pages.github.com/versions.json').read)
-#
-# gem 'github-pages', versions['github-pages']

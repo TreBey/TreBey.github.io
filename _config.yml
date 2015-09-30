@@ -3,8 +3,8 @@ title:       I Am Bey™
 email:       contact.iambey@gmail.com
 author:      Tre Bey
 description: "Great writing. Great design."
-# baseurl:     "localhost:4000"
-# url:         "localhost:4000"
+baseurl:     "iambey.com"
+url:         "iambey"
 date_format: "%b %-d, %Y"
 
 # Google services
@@ -13,7 +13,7 @@ google_verification:
 
 # Optional features
 animated:             true
-show_related_posts:   false
+show_related_posts:   true
 show_post_footers:    true
 show_social_icons:    true
 ajaxify_contact_form: false

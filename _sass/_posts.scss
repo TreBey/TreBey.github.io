@@ -14,16 +14,26 @@
   padding-bottom: 0;
 }
 
-.post-link .post-title {
+.post-link .post-title,
+.post-header h1 {
   margin-top: 0;
   font-family: $display;
-  font-size: $h1;
+  font-size: $h2;
   font-weight: 700;
   color: $blue;
 }
 
+.post-header h1 {
+  font-size: $h1;
+}
+
 .post-summary {
-  font-size: 1em;
+  font-size: $h4;
+  font-family: Merriweather, $georgia;
+}
+
+.post-content p {
+  font-family: Merriweather, $georgia;
 }
 
 .post-footer {
@@ -51,4 +61,10 @@
 
 .related-post-title {
   border-bottom: thin solid #f3f3f3;
+}
+
+.share-page {
+  @include fill-parent;
+  text-align: center;
+  margin-top: rem(75);
 }

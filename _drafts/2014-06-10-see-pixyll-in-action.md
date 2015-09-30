@@ -1,9 +1,9 @@
 ---
 layout:     post
-title:      Pixyll in Action
-date:       2014-06-10 12:31:19
-summary:    See what the different elements looks like. Your markdown has never looked better. I promise.
-categories: jekyll pixyll
+title:      A Warm Introduction
+date:       2015-09-30 07:11:13
+summary:    Something new has made an entrance into the space of creative expression; I Am Bey.
+categories: Lifestyle Networking
 ---
 
 There is a significant amount of subtle, yet precisely calibrated, styling to ensure
