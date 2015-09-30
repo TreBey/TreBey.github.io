@@ -1,0 +1,45 @@
+.about-section {
+  background: linear-gradient(to top, transparentize($black, .3) 10%, transparentize($black, .3) 100%, transparent 75%),
+              url(/images/stardust.png);
+  color: $white;
+  padding: rem(15) rem(10);
+  // height: 100vh;
+  width: 100vw;
+}
+
+.about-section .content-wrap {
+  @include fill-parent;
+  height: 100%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.intro-image {
+  @include fill-parent;
+  height: rem(200);
+  width: rem(200);
+  margin: rem(25) 0;
+
+  img {
+  border-radius: 50%;
+  opacity: .7;
+  }
+}
+
+.intro-bio {
+  @include fill-parent;
+  font-weight: 300;
+  font-size: 1.2em;
+  color: $gray;
+  line-height: 1.5;
+  margin: 0 0 rem(25);
+}
+
+.about-section h3 {
+  @include fill-parent;
+  text-align: left;
+  font-family: $type;
+  font-weight: 400;
+}

@@ -1,0 +1,55 @@
+.hero-wrap {
+  @include fill-parent;
+  display: flex;
+  flex-direction: column;
+
+  img {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    height: rem(-15);
+    width: rem(45);
+  }
+}
+
+.hero-section {
+  position: relative;
+  background: url(/images/billboard.jpg) no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.hero-section h2 {
+  font-family: $display-font-family;
+  font-size: 4em;
+  font-weight: 400;
+  padding: 0 rem(15);
+  border-radius: rem(7);
+  display: inline;
+  color: $white;
+  background: transparentize($red, .7);
+  z-index: 5;
+}
+.hero-section h3 {
+  font-family: $heading-font-family;
+  font-weight: 300;
+  font-size: 2.3em;
+  color: transparentize($white, 0.4);
+  background: transparentize($gray, .9);
+  text-align: center;
+  margin-top: rem(120);
+  z-index: 5;
+}
+
+.bey-1 {
+  color: $green;
+}
+
+.bey-2 {
+  color: $red;
+}
+
+.bey-3 {
+  color: $gold;
+}

@@ -1,0 +1,146 @@
+// Typography
+
+$georgia: Georgia, Cambria, "Times New Roman", Times, serif;
+$helvetica: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$lucida-grande: "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
+$monospace: "Bitstream Vera Sans Mono", Consolas, Courier, monospace;
+$verdana: Verdana, Geneva, sans-serif;
+$display: 'Playfair Display', $georgia;
+$type: Roboto, $helvetica;
+
+$base-font-size: 14px !default;
+$bold-font-weight: bold !default;
+$font-family: 'Merriweather', 'PT Serif', Georgia, 'Times New Roman', serif !default;
+$line-height: 1.5 !default;
+$heading-font-family: $display !default;
+$heading-font-weight: 700 !default;
+$heading-line-height: 1.25 !default;
+$monospace-font-family: $monospace !default;
+$h1: 2.369rem !default;
+$h2: 1.777rem !default;
+$h3: 1.333rem !default;
+$h4: 1rem !default;
+$h5: .75rem !default;
+$h6: .563rem !default;
+$h00: 4rem !default;
+$h0: 3rem !default;
+$h00-responsive: 8vw !default;
+$h0-responsive: 6vw !default;
+$h1-responsive: 4vw !default;
+$h00-responsive-max: 7.68rem !default;
+$h0-responsive-max: 5.76rem !default;
+$h1-responsive-max: 3.84rem !default;
+$abbr-border-bottom: 1px black dotted;
+
+// Page width
+$measure-width: 42rem !default;
+
+// Viewport widths
+$viewport-small: 32em;
+$viewport-medium: 48em;
+$viewport-large: 64em;
+
+// Colors
+$blue: #1B1D25 !default;
+$red: #E14C35 !default;
+$green: #788857 !default;
+$yellow: #efcc00 !default;
+$gold:#DAAA22 !default;
+$orange: #ffcc22 !default;
+$purple: #f92080 !default;
+$dark-blue: #00369f !default;
+$dark-green: #00ab37 !default;
+$dark-green: #009f06 !default;
+$light-pink: #ffdddd !default;
+$light-green: #ddffdd !default;
+$light-blue: #166EA1 !default;
+$dark-gray: #333 !default;
+$mid-gray: #777 !default;
+$medium-gray:#999 !default;
+$gray: #ddd !default;
+$light-gray: #F4F4F4 !default;
+$lighter-gray: #eee !default;
+$white: #FBFBFA !default;
+$black: #010008 !default;
+$darken-1: rgba(#000,.0625) !default;
+$darken-2: rgba(#000,.125) !default;
+$darken-3: rgba(#000,.25) !default;
+$darken-4: rgba(#000,.5) !default;
+$action-color: $red;
+
+// Links
+$link-color: $red;
+$link-hover-color: darken($red, 40%);
+
+// Breakpoints
+$breakpoint-md: '(min-width: 52em)';
+$breakpoint-xl: '(min-width: 96em)';
+
+// Whitespace
+$space-1: .5rem !default;
+$space-2: 1rem !default;
+$space-3: 2rem !default;
+$space-4: 4rem !default;
+
+// Buttons
+$button-font-size: inherit !default;
+$button-font-weight: normal !default;
+$button-line-height: 1.125rem !default;
+$button-padding-y: .5rem !default;
+$button-padding-x: 1rem !default;
+$button-font-family: $heading-font-family;
+
+// Forms
+$form-field-font-size: 1rem !default;
+$form-field-height: 2.25rem !default;
+$form-field-padding-y: .5rem !default;
+$form-field-padding-x: .5rem !default;
+
+// Borders
+$border-color: $light-gray !default;
+$border-width: 1px !default;
+$border-radius: 3px !default;
+
+// Code
+$pre-border-radius: 0;
+$pre-background-color: #fafafa;
+$hljs-comment: $mid-gray;
+$hljs-keyword: $dark-blue;
+$hljs-name: $dark-gray;
+$hljs-number: $dark-green;
+$hljs-string: $red;
+$hljs-title: $red;
+$hljs-type: $dark-blue;
+$hljs-tag: $dark-blue;
+$hljs-attribute: $dark-green;
+$hljs-regexp: $dark-green;
+$hljs-symbol: $purple;
+$hljs-built-in: $dark-blue;
+$hljs-preprocessor: $mid-gray;
+$hljs-deletion: $light-pink;
+$hljs-addition: $light-green;
+$hljs-change: $dark-blue;
+$hljs-chunk: $light-gray;
+
+// Footer
+$footer-border-top: thin solid shade($blue, 40%);
+$footer-padding: $space-3;
+$footer-color: #7a7a7a;
+$footer-bg-color: #fafafa;
+$footer-font-weight: 300;
+$footer-font-size: .75rem;
+
+//Bitters
+
+// Font Colors
+$base-background-color: #fff;
+$base-font-color: $black;
+
+
+// Border
+$base-border-color: $action-color !default;
+$base-border: 1px solid $base-border-color !default;
+
+// Forms
+$form-box-shadow: inset 0 1px 3px rgba(#000, 0.06);
+$form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($action-color, $lightness: -5%, $alpha: -0.3);

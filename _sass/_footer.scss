@@ -1,0 +1,49 @@
+.site {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100vh;
+}
+
+.site-wrap {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+footer {
+  background-color: $blue;
+  border-top: $footer-border-top;
+  color: white;
+  font-size: $footer-font-size;
+  font-weight: $footer-font-weight;
+  padding: $footer-padding;
+  text-align: center;
+}
+
+footer .measure small a {
+  color: $gold;
+}
+
+.footer-contact {
+  margin-top: rem(5);  
+}
+
+.ani-twit,
+.ani-face,
+.ani-link {
+  padding: rem(5) rem(5);
+}
+
+svg:hover .linkedinsvg,
+svg:hover .twittersvg,
+svg:hover .facebooksvg {
+  fill: $red;
+}

@@ -1,0 +1,58 @@
+//hero
+
+.hero-wrap h2 {
+  font-size: $h0;
+}
+
+.hero-wrap h3 {
+  font-size: $h2;
+  margin-top: rem(170);
+}
+
+.hero-wrap img {
+
+}
+
+//about
+
+.intro-image {
+  @include fill-parent;
+  height: rem(150);
+  width: rem(150);
+  margin: rem(25) 0;
+
+  img {
+  border-radius: 50%;
+  opacity: .7;
+  }
+}
+
+
+.about-section .content-wrap .intro-bio {
+  font-size: $h5;
+  line-height: 1.5rem;
+}
+
+//work
+
+.work-section-wrapper h3 {
+  font-size: $h1;
+}
+
+.work-section-wrapper h4 {
+  font-size: $h3;
+}
+
+.social-work h3 {
+  font-size: $h2;
+}
+
+//contact
+
+.contact-section .content-wrap h3 {
+  font-size: $h1;
+}
+
+.contact-info {
+  font-size: $h4;
+}
