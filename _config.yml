@@ -44,7 +44,7 @@ share_twitter: true
 share_googleplus: true
 share_linkedin: false
 share_digg: false
-share_tumblr: false
+share_tumblr: true
 share_reddit: true
 share_stumbleupon: true
 share_hackernews: false
